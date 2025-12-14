@@ -1,0 +1,47 @@
+============================================================
+Project Fox - Training Log
+AMD Robotics Hackathon 2025
+============================================================
+
+Date: 2025-12-13
+Duration: ~1.9 hours
+Hardware: AMD Ryzen AI 9 HX Pro (CPU mode)
+
+============================================================
+CONFIGURATION
+============================================================
+Policy: ACT (Action Chunking with Transformers)
+Dataset: Foxc11/record-test
+Episodes: 20
+Total Frames: 6000
+Batch Size: 8
+Learning Rate: 1e-5
+Steps: 1500
+Backbone: ResNet18
+
+============================================================
+TRAINING PROGRESS
+============================================================
+Step 100:   loss=9.570  grad_norm=201.908  lr=1.0e-05
+Step 200:   loss=6.666  grad_norm=152.323  lr=1.0e-05
+Step 500:   loss=3.xxx  grad_norm=xxx      lr=1.0e-05
+Step 1000:  loss=1.569  grad_norm=55.666   lr=1.0e-05
+Step 1500:  loss=1.482  grad_norm=53.983   lr=1.0e-05
+
+============================================================
+RESULTS
+============================================================
+Initial Loss: 9.570
+Final Loss: 1.482
+Improvement: 84.5% reduction
+
+Model saved to: /home/feng/outputs/act_model/checkpoints/001500/
+Model uploaded to: https://huggingface.co/Foxc11/act-so101-model
+
+============================================================
+NOTES
+============================================================
+- Training completed successfully
+- Robot inference tested and working
+- Model achieves smooth autonomous control
+

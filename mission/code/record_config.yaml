@@ -1,0 +1,34 @@
+robot:
+  type: so101_follower
+  port: /dev/ttyACM1
+  id: my_awesome_follower_arm
+  cameras:
+    top:
+      type: opencv
+      index_or_path: 4
+      width: 640
+      height: 480
+      fps: 30
+    side:
+      type: opencv
+      index_or_path: 2
+      width: 640
+      height: 480
+      fps: 30
+
+teleop:
+  type: so101_leader
+  port: /dev/ttyACM0
+  id: my_awesome_leader_arm
+
+dataset:
+  repo_id: Foxc11/record-test
+  num_episodes: 20
+  episode_time_s: 10
+  reset_time_s: 5
+  root: /home/feng/so101_dataset
+  single_task: pickup the cube and place it to the bin
+  push_to_hub: false
+
+display_data: true
+

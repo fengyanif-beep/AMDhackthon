@@ -1,0 +1,15 @@
+dataset:
+  repo_id: Foxc11/record-test
+  root: /home/feng/so101_dataset
+
+policy:
+  type: act
+  repo_id: Foxc11/act-so101-model
+  push_to_hub: false
+
+steps: 1500
+log_freq: 100
+save_freq: 500
+
+output_dir: /home/feng/outputs/act_model
+

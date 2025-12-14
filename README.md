@@ -7,7 +7,7 @@
 
 **Summary:** Fox C AI is a low-cost, embodied AI companion designed to bridge the gap between **physical distance** and **physical ability**. Built by a solo developer in **30 hours**, this system uses an end-to-end **ACT (Action Chunking with Transformers) Policy** to learn diverse human interactions—from **stabilizing a cup for Parkinson's patients** to **delivering a comforting "pat" for long-distance couples**. It proves that AI robotics can be a vessel for both dignity and love.
 
-*< Images or video demonstrating your project >*
+*< (https://youtu.be/OUBvpOQkKH8) > *
 
 ## Submission Details
 
@@ -95,7 +95,7 @@ Control Interface: The system abstracts away the Linux terminal complexity, aimi
 ## Additional Links
 *For example, you can provide links to:*
 
-- Demo Video:
+- Demo Video: https://youtu.be/OUBvpOQkKH8
 - Hugging Face Dataset: <https://huggingface.co/datasets/Foxc11/record-test>
 - Hugging Face model: <https://huggingface.co/Foxc11/act-so101-model>
 - Training logs (wandb): mission/wandb/001500/
